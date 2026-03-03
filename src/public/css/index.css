@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f6f4;
+    color: #6b5b53;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.required {
+    color: #d77;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* .name-group {
+    display: flex;
+    gap: 20px;
+} */
+.name-group {
+    display: flex;
+    gap: 20px;
+}
+
+.name-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.radio-group {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.radio-group input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.tel-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tel-group input {
+    width: 100px;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.button-area {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #6b5b53;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
