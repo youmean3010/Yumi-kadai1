@@ -16,3 +16,6 @@ yarn-error.log
 
 # Docker MySQL data
 docker/mysql/data/
+/vendor/
+/node_modules/
+.env
